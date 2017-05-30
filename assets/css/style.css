@@ -1,0 +1,90 @@
+body {
+	background-image: url("../images/background.jpg");
+	z-index: -1;
+}
+
+#container {
+	width: 720px;
+	background-color: rgba(255, 255, 255, .5);
+	margin: 20px auto;
+}
+
+.h1 {
+	font-family: 'Over the Rainbow', cursive; 
+	text-align: center;
+	font-size: 35px;
+	padding-top: 15px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Over the Rainbow', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+
+#instructions {
+	margin: 25px;
+
+}
+
+.images-box {
+	width: 305px;
+	margin: 0 25px 25px 25px;
+}
+
+img {
+	width: 140px;
+	height: 140px;
+}
+
+.numbers-box {
+	width: 305px;
+	margin: 0 25px 25px 35px;
+	float: right;
+	font-size:35px;
+}
+
+
+
+#goal-1 {
+	width: 120px; 
+	height: 120px;
+	background-color: rgba(232, 157, 227, .75);
+	float: right;
+	padding: 10px;
+	margin: 2px;
+	font-weight:bold; 
+	
+}
+#sum-2 {
+	width: 120px; 
+	height: 120px;
+	background-color: rgba(29, 170, 183, .75);
+	float: right;
+	padding: 10px;
+	margin: 2px;
+}
+
+#wins-3 {
+	width: 120px; 
+	height: 120px;
+	background-color: rgba(242, 166, 53, .75);
+	float: right;
+	padding: 10px;
+	margin: 2px;
+}
+
+#losses-4 {
+	width: 120px; 
+	height: 120px;
+	background-color: rgba(239, 216, 134, .75);
+	float: right;
+	padding: 10px;
+	margin: 2px;
+}
