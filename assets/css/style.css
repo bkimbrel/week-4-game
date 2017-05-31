@@ -1,20 +1,31 @@
 body {
 	background-image: url("../images/background.jpg");
 	z-index: -1;
+	line-height: 1.5;
 }
 
 #container {
 	width: 720px;
+	height: 670px;
 	background-color: rgba(255, 255, 255, .5);
 	margin: 20px auto;
 }
 
 .h1 {
+	width: 100%;
+}
+
+h1 {
 	font-family: 'Over the Rainbow', cursive; 
 	text-align: center;
 	font-size: 35px;
 	padding-top: 15px;
 	font-weight: bold;
+}
+
+#instructions {
+	width: 690px;
+	margin: 20px;
 }
 
 h2 {
@@ -28,63 +39,79 @@ p {
 	font-size: 15px;
 }
 
-#instructions {
-	margin: 25px;
-
-}
-
 .images-box {
-	width: 305px;
-	margin: 0 25px 25px 25px;
+	width: 325px;
+	margin-left: 20px;
+	float: left;
 }
 
 img {
-	width: 140px;
-	height: 140px;
+	width: 150px;
+	height: 150px;
 }
 
 .numbers-box {
-	width: 305px;
-	margin: 0 25px 25px 35px;
-	float: right;
-	font-size:35px;
+	width: 325px;
+	margin-left: 48px;
+	float: left;
 }
 
-
-
 #goal-1 {
-	width: 120px; 
-	height: 120px;
+	width: 130px; 
+	height: 130px;
 	background-color: rgba(232, 157, 227, .75);
-	float: right;
+	float: left;
 	padding: 10px;
 	margin: 2px;
 	font-weight:bold; 
-	
 }
+
 #sum-2 {
-	width: 120px; 
-	height: 120px;
+	width: 130px; 
+	height: 130px;
 	background-color: rgba(29, 170, 183, .75);
-	float: right;
+	float: left;
 	padding: 10px;
 	margin: 2px;
+	font-weight:bold;
 }
 
 #wins-3 {
-	width: 120px; 
-	height: 120px;
+	width: 130px; 
+	height: 130px;
 	background-color: rgba(242, 166, 53, .75);
-	float: right;
+	float: left;
 	padding: 10px;
 	margin: 2px;
+	font-weight:bold;
 }
 
 #losses-4 {
-	width: 120px; 
-	height: 120px;
+	width: 130px; 
+	height: 130px;
 	background-color: rgba(239, 216, 134, .75);
-	float: right;
+	float: left;
 	padding: 10px;
 	margin: 2px;
+	font-weight:bold;
+}
+
+#goal {
+	font-size: 32px;
+	text-align: center;
+}
+
+#sum {
+	font-size: 32px;
+	text-align: center;
+}
+
+#wins {
+	font-size: 32px;
+	text-align: center;
+}
+
+#losses {
+	font-size: 32px;
+	text-align: center;
 }
